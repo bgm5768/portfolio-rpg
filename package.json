@@ -1,0 +1,17 @@
+{
+  "name": "personal-introduction",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "build": "node scripts/build.mjs",
+    "test": "node --test --test-isolation=none"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  }
+}
